@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    border-style:solid;
+
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+
+    border-style:solid;
+}
