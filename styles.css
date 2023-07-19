@@ -1,18 +1,42 @@
+body {
+    /*These settings gets rid of the natural margin and padding
+    around the rest of the body of the web page*/
+    margin: 0;
+    padding: 0;
+}
+
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-
-    border-style:solid;
-
+    align-items: center;
+    background-color: #1F2937;
 }
 
 .header ul {
     display: flex;
-    list-style-type: none;
     flex-direction: row;
-
-    border-style:solid;
+    flex-wrap: none;
+    /*border-style:solid;*/
+    gap: 24px;
+    /*Use these properties to get rid of list formatting */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
 }
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo {
+    display: flex;
+    margin-left: 100px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
