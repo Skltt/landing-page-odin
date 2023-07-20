@@ -110,31 +110,33 @@ body {
     align-content: center;
     flex-wrap: wrap;
     text-align: center;
+    margin: 0;
+    padding: 0;
     gap: 100px;
     margin-left: 100px;
     margin-right: 100px;
     padding: 50px;
 }
 
-.two-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 150px;
-    font-weight: lighter;
-}
+    .two-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 150px;
+        font-weight: lighter;
+    }
 
-.two-info .two-image {
-    display: flex;
-    height: 200px;
-    width: 200px;
-    border-style: solid;
-    border-color: #3882F6;
-    border-radius: 20px;
-    margin: 0;
-    padding: 0;
-}
+    .two-info .two-image {
+        display: flex;
+        height: 200px;
+        width: 200px;
+        border-style: solid;
+        border-color: #3882F6;
+        border-radius: 20px;
+        margin: 0;
+        padding: 0;
+    }
 
 .three {
     display: flex;
@@ -165,5 +167,64 @@ body {
         flex-direction: row;
         justify-content: flex-end;
         margin-right: 350px;
-        font-weight: bold;
+        font-weight: 500;
     }
+
+.four {
+    display: flex;
+    justify-content: center;
+}
+
+.action-box {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 100px 100px;
+    padding: 20px;
+}
+
+.sign-up-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 20px;
+    gap: 4px;
+}
+
+    .sign-up-left h1, .sign-up-left p {
+        color: white;
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+    }
+    .sign-up-left p {
+        font-size: 18px;
+    }
+
+.sign-up-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .sign-up-right .button {
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        margin: 10px;
+    }
+    .sign-up-right .button:hover {
+        border-color: pink;
+    }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+
+}
