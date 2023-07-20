@@ -25,7 +25,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-right: 300px;
+    margin-right: 100px;
 }
 
 .header a {
@@ -35,11 +35,13 @@ body {
 
 .header a:hover {
     color: pink;
+    border-color: pink;
+    border-bottom-style: solid;
 }
 
 .header-logo {
     display: flex;
-    margin-left: 300px;
+    margin-left: 100px;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -48,14 +50,14 @@ body {
     display: flex;
 }
 
-.one .one-left {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin-left: 300px;
-    align-items: flex-start;
-    color: white;
-}
+    .one .one-left {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin-left: 100px;
+        align-items: flex-start;
+        color: white;
+    }
 
 .awesome {
     display: flex;
@@ -72,7 +74,7 @@ body {
     box-shadow: none;
     border-style: solid;
     border-width: 0;
-    padding: 10px 50px;
+    padding: 10px 25px;
     font-size:medium;
     font-weight: 500;
     background-color: #3882F6;
@@ -80,10 +82,88 @@ body {
     color: #F9FAF8;
 }
 
+    .button:hover {
+        background-color: pink;
+        color:black;
+    }
+
 .placeholder.image {
     display: flex;
     color: white;
     background-color: gray;
-    padding: 100px 150px;
-    margin-right: 300px;
+    padding: 150px 200px;
+    margin-right: 100px;
 }
+
+.random-information-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+}
+
+.two-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px;
+    font-weight: lighter;
+}
+
+.two-info .two-image {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E5E7EB;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-size: 36px;
+    font-style: italic;
+
+}
+
+    .three .quote {
+        margin: 0;
+        padding: 0;
+        margin-left: 350px;
+        margin-right: 350px;
+        text-align: start;
+        font-weight: lighter;
+    }
+    
+    .three .signature {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 350px;
+        font-weight: bold;
+    }
